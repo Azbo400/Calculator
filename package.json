@@ -6,6 +6,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "immutability-helper": "^3.0.0",
+    "mathjs": "^5.4.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "webpack": "^4.29.4"

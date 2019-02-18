@@ -7,14 +7,10 @@ class Button extends Component {
       equation: []
     }
   }
-  onClick = () => {
-    console.log(this.props.character)
-  }
-
 
   render() { 
     return ( 
-      <div className="button" onClick={this.onClick}>
+      <div className="button" onClick={e => this.props.onClick(this.props.value)}>
         <p>{this.props.character}</p>
       </div>
     );
