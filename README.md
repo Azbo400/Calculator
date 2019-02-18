@@ -1,2 +1,4 @@
 # Calculator 
-Calculator application by Ryan A. 
+Simple Calculator application written in React.js
+
+Check it out here: https://azbo400.github.io/Calculator
